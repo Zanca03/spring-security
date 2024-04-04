@@ -3,7 +3,7 @@ package dev.carlosezpereira.springsecurity.security;
 public enum ApplicationUserPermission {
     STUDENT_READ("student:read"),
     STUDENT_WRITE("student:write"),
-    COURSE_READ("student:read"),
+    COURSE_READ("course:read"),
     COURSE_WRITE("course:write");
 
     private final String permission;
